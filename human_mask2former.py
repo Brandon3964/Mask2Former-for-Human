@@ -55,7 +55,7 @@ total_img = len(test_image)
 counter = 0
 
 
-#Takes around 2hr to run eval on hbs dataset
+
 for cur_image in test_image:
 
     #WxHxC
