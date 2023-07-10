@@ -59,7 +59,7 @@ counter = 0
 for cur_image in test_image:
 
     #WxHxC
-    im = cv2.imread(img_dir + cur_image)
+    im = cv2.imread(img_dir + "/" + cur_image)
     #WxH
     true_mask = cv2.imread(label_dir + Path(cur_image).stem + '.png', cv2.IMREAD_UNCHANGED).astype(np.uint8)
     
